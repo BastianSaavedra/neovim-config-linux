@@ -1,11 +1,3 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "markdown",
-    "javascript",
-    "graphql",
-    "html",
-    "yaml",
-    "json"
-  ]
+    "suggest.noselect":false
 }

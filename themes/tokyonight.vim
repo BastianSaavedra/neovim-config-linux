@@ -1,7 +1,19 @@
 colorscheme tokyonight
 
-let g:lightline = {'colorscheme': 'tokyonight'}
-"
+" let g:lightline = {'colorscheme': 'tokyonight'}
+let g:lightline = {
+        \ 'colorscheme': 'tokyonight',
+        \ 'tabline': {
+        \   'left': [ ['buffers'] ],
+        \   'right': [ ['close'] ]
+        \ },
+        \ 'component_expand': {
+        \  'buffers': 'lightline#bufferline#buffers'
+        \ },
+        \ 'component_type': {
+        \   'buffers': 'tabsel'
+        \ }
+        \ }
 
 " let g:tokyonight_style = "storm"
 let g:tokyonight_italic_functions = 1

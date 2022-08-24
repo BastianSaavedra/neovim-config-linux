@@ -18,6 +18,7 @@ let g:startify_bookmarks = [
         \ { 'n': '~/.config/nvim' },
         \ { 'b': '~/.config/qtile' },
         \ { 'r': '~/.config/alacritty' },
+        \ { 'f': '~/.config/rofi' },
         \ { 'z': '~/.zshrc' },
         \]
 

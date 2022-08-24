@@ -42,4 +42,4 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Prettier
-nnoremap <C-D> :Prettier<CR>
+" nnoremap <C-D> :Prettier<CR>
